@@ -1,0 +1,106 @@
+  #comment{
+    width:400px;
+    height:200px;
+    border: 1px solid black;
+	margin: auto;
+	margin-top: -200px;
+  } 
+  
+  #comment input[name="author"]{
+    margin-top:0px;
+    margin-left:20px;
+	width:150px;
+  }
+  
+  #comment textarea{
+    width:360px;
+	height:80px;
+	resize: none;
+    margin-left:20px;
+  }
+  
+  #comment div{
+	width:100px;
+    height:40px;
+    border: 1px solid black;
+    background-repeat:no-repeat;
+    background-size:100%;
+	margin-left:20px;
+	margin-top:10px;
+  } 
+  
+  #comment input[name="captcha"]{
+    margin-top:-42px;
+    margin-left:140px;
+	float: left;
+	width:70px;
+  }
+  
+  #comment input[name="sendcom"]{
+    margin-top:-74px;
+    margin-left:235px;
+	float: left;
+	width:155px;
+  }
+  
+  #comment label[for="author"]{
+    margin-left:40px;
+	float: left;
+  }
+  
+  #comment label[for="textcom"]{
+    margin-left:40px;
+  }
+  
+  #comment label[for="captcha"]{
+    margin-left:133px;
+	float:left;
+	margin-top:-43px;
+  }
+  
+  div.comment{
+    width:500px;
+	height:140px;
+	border: 1px solid black;
+	margin: auto;
+	margin-top:50px;
+  }
+  
+  div.header_comment{
+	height: 30%;
+	background-color:#D1D1D1;
+  }
+  
+  div.author{
+	height:88%;
+	width:38%;
+	float:left;
+	overflow: auto;
+	padding-top: 5px;
+	padding-left: 7px;
+  }
+  
+  div.datetime{
+	height:75%;
+	width:58%;
+	float:right;
+	padding-top: 10px;
+	margin-left:1px;
+	font-size: 10pt;
+  }
+  
+  input.delcomment{
+	width:65px;
+	float:right;
+	margin-top:-9px;
+  }
+  
+  div.textcom{
+	width: 490px;
+	height: 80px;
+	word-break: break-all;
+    overflow: auto;
+	padding: 5px;
+	font-size: 11pt;
+  }
+  
