@@ -1,8 +1,8 @@
-if ( window.history.replaceState ) {
+﻿if ( window.history.replaceState ) {
   window.history.replaceState( null, null, window.location.href );
 };
 
-// ajax запрос к серверу
+// ajax запрос к серверу 100500
 function createRequest(param){
   
   if (this.name == 'sendcom') {
